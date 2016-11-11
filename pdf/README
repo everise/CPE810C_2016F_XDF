@@ -1,3 +1,7 @@
 This module implements the functionality of reading a pdf file into the memory.
-PoDoFo is library required for the compilation of this module.
+PoDoFo is a library required for the compilation of this module.
 For dependencies and compilation instructions of PoDoFo, please read "./podofo/README.html".
+
+For now, we already are able to compile two examples from the library podofo:
+1. podofoimgextract: a program taking a pdf file name as the input argument and saving the extracted images to the disk.
+2. podofotxtextract: a program taking a pdf file name as the input argument and printing the extracted text to the screen.

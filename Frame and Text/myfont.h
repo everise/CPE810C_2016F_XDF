@@ -1,20 +1,24 @@
-#ifndef CHARACTERSTYLE_H__
-#define CHARACTERSTYLE_H__
+#ifndef MYFONT_H
+#define MYFONT_H
+
+
 #include <string>
 
-class CharacterStyle{
+
+class myFont{
 //This class represent a single character and it has its own different style
 private:
     std::string language;
-    int c;
-    std::string font;
-    double  size;
+    int color;
+    std::string ziti;
+    double size;
     int bold;
     bool italic;
     bool underline;
 public:
-    CharacterStyle();
+    myFont();
 
 };
 
-#endif // CHARACTERSTYLE_H
+
+#endif // MYFONT_H
